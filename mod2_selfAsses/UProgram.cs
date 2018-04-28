@@ -13,6 +13,11 @@ namespace mod2_selfAsses
             BS = bs;
         }
 
+        public override string ToString()
+        {
+            return string.Format(UProgramName, BS);
+        }
+
     }
 
 }

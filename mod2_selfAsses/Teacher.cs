@@ -9,5 +9,10 @@ namespace mod2_selfAsses
         }
 
         public string TeacherName { get; set; }
+
+        public override string ToString()
+        {
+            return string.Format(TeacherName);
+        }
     }
 }

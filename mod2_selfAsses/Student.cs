@@ -14,7 +14,7 @@ namespace mod2_selfAsses
         public string StudentName { get; set; }
 
 
-        private static int instances = 0;
+        public static int instances = 0;
 
         public Student()
         {
@@ -26,6 +26,11 @@ namespace mod2_selfAsses
         public static int CountStudents()
         {
             return instances;
+        }
+
+        public override string ToString()
+        {
+            return string.Format(StudentName);
         }
     }
 }
