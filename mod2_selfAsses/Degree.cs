@@ -5,12 +5,17 @@ namespace mod2_selfAsses
     {
         public string DegreeName { get; set; }
 
-        private Course course;
+        public Course course;
 
         public Degree(string degreeName, Course compSci)
         {
             DegreeName = degreeName;
             course = compSci;
+        }
+
+        public override string ToString()
+        {
+            return string.Format(DegreeName, course);
         }
 
     }
