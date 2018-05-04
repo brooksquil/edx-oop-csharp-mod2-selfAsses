@@ -5,11 +5,11 @@ namespace mod2_selfAsses
     {
         public Course(string courseName, Student stud1, Student stud2, Student stud3, Teacher teach)
         {
-            CourseName = courseName;
-            student1 = stud1;
-            student2 = stud2;
-            student3 = stud3;
-            teacher = teach;
+            this.CourseName = courseName;
+            this.student1 = stud1;
+            this.student2 = stud2;
+            this.student3 = stud3;
+            this.teacher = teach;
 
         }
 
