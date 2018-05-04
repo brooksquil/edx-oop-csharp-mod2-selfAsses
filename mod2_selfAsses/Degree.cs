@@ -9,13 +9,13 @@ namespace mod2_selfAsses
 
         public Degree(string degreeName, Course compSci)
         {
-            DegreeName = degreeName;
-            course = compSci;
+            this.DegreeName = degreeName;
+            this.course = compSci;
         }
 
         public override string ToString()
         {
-            return string.Format(DegreeName, course);
+            return string.Format(DegreeName);
         }
 
     }

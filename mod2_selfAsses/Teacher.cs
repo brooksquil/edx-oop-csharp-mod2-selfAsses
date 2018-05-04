@@ -3,9 +3,13 @@ namespace mod2_selfAsses
 {
     public class Teacher
     {
+
+
+
+
         public Teacher(string teacherName)
         {
-            TeacherName = teacherName;
+            this.TeacherName = teacherName;
         }
 
         public string TeacherName { get; set; }
@@ -14,5 +18,7 @@ namespace mod2_selfAsses
         {
             return string.Format(TeacherName);
         }
+
+
     }
 }

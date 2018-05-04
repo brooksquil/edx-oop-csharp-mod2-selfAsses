@@ -6,7 +6,7 @@ namespace mod2_selfAsses
 
         public Student(string studentName)
         {
-            StudentName = studentName;
+            this.StudentName = studentName;
 
             // Every time the constructor runs, increment "instances"
             instances++;
